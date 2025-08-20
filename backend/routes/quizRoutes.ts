@@ -3,8 +3,6 @@ import { QuizController } from '../controllers/quizController.js';
 
 const router = Router();
 
-router.get('/topic', QuizController.getTodaysTopic);
-router.post('/generate', QuizController.generateQuiz);
 router.get('/today', QuizController.getTodaysQuiz);
 
 export { router as quizRoutes };
